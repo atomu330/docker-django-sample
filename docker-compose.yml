@@ -17,7 +17,7 @@ services:
       - 3306:3306
 
   web:
-    build: .
+    build: ./docker/app
     command: python3 manage.py runserver 0.0.0.0:8000
     volumes:
       - ./src:/code
