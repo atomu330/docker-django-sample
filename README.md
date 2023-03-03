@@ -3,7 +3,7 @@
 ## 1.プロジェクト作成コマンドを実行
 
 ```
-docker-compose run web django-admin.py startproject djangopj .
+docker-compose run web django-admin.py startproject "プロジェクト名" .
 ```
 
 
